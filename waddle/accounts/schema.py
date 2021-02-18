@@ -1,6 +1,5 @@
 import graphene
 import graphql_jwt
-from graphql import GraphQLError
 from graphql_jwt.decorators import login_required
 
 from .mutations import UserCreate
