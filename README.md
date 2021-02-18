@@ -1,5 +1,5 @@
 # Usage
-- Clone the repository by running 
+- Clone the repository 
 ```sh
 >>> git clone git@github.com:Cimmanuel/legendary-waddle.git
 ```
@@ -122,4 +122,8 @@ query {
     }
   }
 }
+```
+- Run tests
+```sh
+pytest -sv
 ```
