@@ -14,6 +14,8 @@ class UserManager(BaseUserManager):
         if not email:
             raise ValueError("Users must have a unique email address!")
 
+        _ = validate_mobile(mobile)
+
         user = self.model(
             name=name,
             mobile=mobile,
